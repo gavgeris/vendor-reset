@@ -27,11 +27,11 @@ enum amd_device_type
   AMD_NAVI10,
   AMD_NAVI12,
   AMD_NAVI14,
-  AMD_NAVI23,
+  AMD_DIMGREY_CAVEFISH,
 };
 
 extern const struct vendor_reset_ops amd_polaris10_ops;
 extern const struct vendor_reset_ops amd_vega10_ops;
 extern const struct vendor_reset_ops amd_vega20_ops;
 extern const struct vendor_reset_ops amd_navi10_ops;
-extern const struct vendor_reset_ops amd_navi23_ops;
+extern const struct vendor_reset_ops amd_dimgrey_cavefish_ops;
